@@ -19,7 +19,8 @@ public class OptionContinue : MonoBehaviour {
             nextScenario.SetActive(true);
         } else {    // show Failure GO
             GameObject failureGO = GameObject.Find("Failure");
-            failureGO.transform.GetChild(0).gameObject.SetActive(true);
+            Debug.Log(failureGO);
+// failureGO.transform.GetChild(0).gameObject.SetActive(true);
         }
     }
 }
