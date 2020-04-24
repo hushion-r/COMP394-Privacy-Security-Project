@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{A8A33058-0ECB-109E-05E2-153439C2918B}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Finish.cs">
     <Files>
-      <File FileName="Assets/Scripts/Finish.cs" Line="12" Column="24" />
+      <File FileName="Assets/Scripts/Finish.cs" Line="17" Column="1" />
       <File FileName="Assets/Scripts/ClickToContinue.cs" />
       <File FileName="Assets/Scripts/OptionContinue.cs" Line="23" Column="3" />
     </Files>
