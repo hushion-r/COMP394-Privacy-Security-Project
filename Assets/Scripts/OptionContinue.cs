@@ -13,14 +13,20 @@ public class OptionContinue : MonoBehaviour {
         button.onClick.AddListener(SwitchScenario);
     }
 
-    void SwitchScenario() {
-        if (correct) {    // switch scenario
-            thisScenario.SetActive(false);
-            nextScenario.SetActive(true);
-        } else {    // show Failure GO
-            GameObject failureGO = GameObject.Find("Failure");
-            Debug.Log(failureGO);
+    //void SwitchScenario() {
+    //    if (correct) {    // switch scenario
+    //        thisScenario.SetActive(false);
+    //        nextScenario.SetActive(true);
+    //    } else {    // show Failure GO
+    //        GameObject failureGO = GameObject.Find("Failure");
+    //        Debug.Log(failureGO);
 // failureGO.transform.GetChild(0).gameObject.SetActive(true);
-        }
+        //}
+    //}
+
+    void SwitchScenario()
+    {
+        thisScenario.SetActive(false);
+        nextScenario.SetActive(true);
     }
 }
