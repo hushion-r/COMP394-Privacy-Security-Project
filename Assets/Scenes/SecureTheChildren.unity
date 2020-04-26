@@ -1009,6 +1009,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265718783}
   m_CullTransparentMesh: 0
+--- !u!1 &292572050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 292572051}
+  - component: {fileID: 292572053}
+  - component: {fileID: 292572052}
+  m_Layer: 0
+  m_Name: Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &292572051
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292572050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1185150500}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1120, y: 509.2}
+  m_SizeDelta: {x: 100, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &292572052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292572050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9811321, g: 0.93948025, b: 0.93948025, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 17
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'If you are really unsure, look for "https" instead of "http"!
+
+'
+--- !u!222 &292572053
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292572050}
+  m_CullTransparentMesh: 0
 --- !u!1 &324290955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,7 +1128,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1468, y: 346}
   m_SizeDelta: {x: 197, y: 46.2}
   m_Pivot: {x: 0.5, y: 0.5}
-
 --- !u!114 &324290957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1694,7 +1772,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 91e4a16b62d674998afd2ac04dad92f7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd2f486b9757f4e02af7c49cc70e837d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1810,7 +1888,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 509336568}
+      - m_Target: {fileID: 509336566}
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
@@ -1839,7 +1917,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2a0645157f94240cab8c04fda8419aa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b7533d1323e3a4c20acdc1e33a73ebf6, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3331,7 +3409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1185150500
 Transform:
   m_ObjectHideFlags: 0
@@ -3349,6 +3427,7 @@ Transform:
   - {fileID: 505873214}
   - {fileID: 1173871388}
   - {fileID: 1529535903}
+  - {fileID: 292572051}
   m_Father: {fileID: 589139474}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3762,7 +3841,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1452767697}
+      - m_Target: {fileID: 1452767695}
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
@@ -3994,7 +4073,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: https://danger.com/
+  m_Text: http://danger.com/
 --- !u!222 &1493665057
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4490,7 +4569,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608454531}
   m_CullTransparentMesh: 0
-
 --- !u!1 &1627696633 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1151513565122314769, guid: 58d6f140846beaf48ab6eb06aa73b9a1,
@@ -4938,7 +5016,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2a0645157f94240cab8c04fda8419aa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b7533d1323e3a4c20acdc1e33a73ebf6, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
