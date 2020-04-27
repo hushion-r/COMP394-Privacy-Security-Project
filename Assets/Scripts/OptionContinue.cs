@@ -10,6 +10,7 @@ public class OptionContinue : MonoBehaviour {
     public GameObject nextScenario;
 
     void Awake() {
+        Debug.Log("Cursor Entering " +button + " GameObject");
         button.onClick.AddListener(SwitchScenario);
     }
 
