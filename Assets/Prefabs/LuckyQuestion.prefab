@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3840566644602601211}
   - component: {fileID: 8771885251893954271}
   - component: {fileID: 1676128095455497770}
+  - component: {fileID: 956811635468638715}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -117,7 +118,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8771885251893954271}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 956811635468638715}
+        m_MethodName: SwitchScenario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &956811635468638715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040203717519820212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62dbed27e812348a18b4b52a225a8c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextQuestion: {fileID: 0}
+  thisQuestion: {fileID: 1540197756897867705}
 --- !u!1 &1540197756897867705
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,6 +776,7 @@ GameObject:
   - component: {fileID: 7051376566401288435}
   - component: {fileID: 1519883165543329554}
   - component: {fileID: 830081796457746477}
+  - component: {fileID: 277720597944070790}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -855,7 +882,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1519883165543329554}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 277720597944070790}
+        m_MethodName: SwitchScenario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &277720597944070790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8154255463413521990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62dbed27e812348a18b4b52a225a8c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextQuestion: {fileID: 0}
+  thisQuestion: {fileID: 1540197756897867705}
 --- !u!1 &8981283333303640051
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +920,7 @@ GameObject:
   - component: {fileID: 148928857742889271}
   - component: {fileID: 4002649690353678314}
   - component: {fileID: 3715596971583997166}
+  - component: {fileID: 1140079482361297818}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -974,7 +1027,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1140079482361297818}
         m_MethodName: SwitchScenario
         m_Mode: 1
         m_Arguments:
@@ -985,6 +1038,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1140079482361297818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981283333303640051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62dbed27e812348a18b4b52a225a8c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextQuestion: {fileID: 0}
+  thisQuestion: {fileID: 1540197756897867705}
 --- !u!1 &9119691736890064603
 GameObject:
   m_ObjectHideFlags: 0
