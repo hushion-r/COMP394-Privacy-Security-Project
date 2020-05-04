@@ -1,29 +1,12 @@
 ﻿<Properties StartupConfiguration="{A8A33058-0ECB-109E-05E2-153439C2918B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/countDownTimer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/videoPlayer.cs">
     <Files>
-      <File FileName="Assets/Scripts/Finish.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/OptionContinue.cs" Line="13" Column="9" />
-      <File FileName="Assets/Scripts/HoverText.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/changeQuestions.cs" Line="9" Column="1" />
-      <File FileName="Assets/Scripts/countDownTimer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/videoPlayer.cs" Line="11" Column="22" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="COMP394-Privacy-Security-Project" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="countDownTimer.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="10ec1fdf-0a6d-42a1-b2ee-05b7abb0c21e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dd6e5e95-1675-45e3-ad3e-54a414e98014" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
