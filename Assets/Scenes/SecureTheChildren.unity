@@ -5099,11 +5099,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '1) Evil URL could be embeded in the video file that prompts you to download
-    a snippet of code of trojan.
+  m_Text: 'Don''t interact with suspicious pop ups! Close it instead!
 
-    2) Only update/download from official website,
-    or trusted source such as Apple store.
+    1) Evil
+    URL could be embeded in the video file that prompts you to download a snippet
+    of code of trojan.
+
+    2) Only update/download from official website, or trusted
+    source such as Apple store.
+
 
 '
 --- !u!222 &981637976
@@ -8289,7 +8293,7 @@ MonoBehaviour:
   button: {fileID: 1744836174}
   correct: 0
   thisScenario: {fileID: 882402592}
-  nextScenario: {fileID: 1427721046615601927}
+  nextScenario: {fileID: 143804267019958406}
 --- !u!114 &1744836174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11711,7 +11715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3711353943961344900
 Transform:
   m_ObjectHideFlags: 0
@@ -12923,7 +12927,7 @@ MonoBehaviour:
   button: {fileID: 5862983184894119070}
   correct: 1
   thisScenario: {fileID: 3711353943961344899}
-  nextScenario: {fileID: 0}
+  nextScenario: {fileID: 2561782839845193705}
 --- !u!114 &5827053033383768115
 MonoBehaviour:
   m_ObjectHideFlags: 0
